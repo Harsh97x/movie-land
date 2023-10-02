@@ -20,7 +20,9 @@ function App() {
       <h1>Movie Land</h1>
       <div className="search">
         <input placeholder="Superman" onChange={() => {}} />
+        <img src={SearchIcon} alt="Search" onClick={() => {}} />
       </div>
+      <div className="container"></div>
     </div>
   );
 }
